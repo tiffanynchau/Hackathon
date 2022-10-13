@@ -1,0 +1,19 @@
+body {
+  font-family: Verdana, sans-serif;
+}
+
+p {
+  display: inline;
+  color: white;
+}
+
+span {
+  font-size: large;
+  font-weight: bold;
+}
+
+.button {
+  font-size: 20px;
+  background-color: #6a5e2d;
+  color: white;
+}

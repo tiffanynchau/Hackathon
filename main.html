@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halloween</title>
+    <!-- CSS only -->
+    <script src="halloween.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="/Users/tiffanychau/Hackathon/style.css" />
+  </head>
+  <body style>
+   <!-- Panel -->
+      <div class="card text-center container-fluid" style="background-color:#ab4321">
+      
+      <div class="card-body">
+      <div class="container">
+        <img
+        src="images/ghost-white.gif"
+        id="pic"
+        
+        />
+      </div>
+        
+
+      <div class="container inline mt-3 mb-3">
+        <div>
+          <strong><span id="days" style="font-size: 25px; color:azure"> Days</span></strong>
+          <strong><span id="hours" style="font-size: 25px;">Hours</span></strong>
+          <strong><span id="mins" style="font-size: 25px; color:azure">Minutes</span></strong>
+          <strong><span id="secs" style="font-size: 25px;">Seconds</span></strong>
+          <strong><span id="end" style="font-size: 40px"></span></strong>
+          
+        </div>
+      </div>
+
+        <div class="container py-2 h-50" style="border-radius: 15px; background-color: #ebd3d0;">
+          <figure class="text-center mb-0">
+            <blockquote class="blockquote"">
+              <p class="pb-3">
+                <i class="text-primary"></i>
+                <strong><span class="lead font-italic" id="quotes" style="color: #356555;"><strong>Many of life's failures are people who did not realize how
+                  close they were to success when they gave up.</strong></span></strong>
+                
+                <i class="text-primary"></i>
+              </p>
+            </blockquote>
+            <figcaption class="blockquote-footer mb-0" id="author">
+              Thomas Edison
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+          <!-- Buttons -->
+      <div class="container mb-6 mt-6">
+        <div>
+          <button type="button" class="btn" id="change" style="border-radius: 25px; background-color: #da9424; color:white; padding: 15px"><strong>Riddikulus</strong></button>
+          <button type="button" class="btn" id="generate" style="border-radius: 25px; background-color: #da9424; color:white; padding: 15px"><strong>Accio, quotes </strong></button>
+        </div>
+      </div>
+
+  </body>
+</html>

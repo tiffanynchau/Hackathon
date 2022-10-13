@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Halloween",
+  "version": "1.0",
+  "description": "A halloween count down chrome extension",
+  "background": {
+    "service_worker": "halloween.js"
+  },
+
+  "action": {
+    "default_icon": "/images/pngegg.png",
+    "default_popup": "main.html",
+    "default_title": "Halloween Countdown"
+  },
+
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+
+  "content_security_policy": {
+    "script-src": "self",
+    "object-src": "self"
+  }
+}
