@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "A halloween count down chrome extension",
   "background": {
-    "service_worker": "halloween.js"
+    "service_worker": "/Hackathon/halloween.js"
   },
 
   "action": {
